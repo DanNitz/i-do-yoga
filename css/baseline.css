@@ -1,0 +1,67 @@
+/*Baseline CSS Mobile first*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {}
+
+img {
+  max-width: 100%;
+}
+
+/*Navigation*/
+
+.title {
+  margin: 0;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+.title a,
+.navigation a {
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+  color: white;
+}
+
+.navigation a:hover {
+  color: #009999;
+}
+
+.nav-header {
+  background-color: #669966;
+}
+
+/*media query section*/
+
+@media (min-width:769px) {
+
+.nav-header,
+.title,
+.navigation {
+  display: flex;
+  }
+
+.nav-header {
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+
+}
