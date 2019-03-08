@@ -75,12 +75,7 @@ img {
 }
 
 @media (min-width:1024px){
-	.main-img {
-		max-height: 600px;
-		max-width: 1024px;
-		margin: auto;
 
-	}
 
 	}
 }
