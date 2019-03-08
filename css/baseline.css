@@ -48,16 +48,11 @@ img {
 }
 
 .nav-header {
-  background-color: #669966;
+  background-color: #02986a;
 }
 /*main image section*/
 .main-img {
-	padding-top: 100px;
-  height: 600px;
-  background:	linear-gradient(0deg, #fff, transparent 50%),
-              #669966 url('../imgs/headerimage.jpg') no-repeat center;
-  background-size: cover;
-  color: white;
+
 }
 
 /*media query section*/
@@ -74,6 +69,10 @@ img {
   flex-direction: row;
   justify-content: space-between;
   }
+
+.title {
+	padding-left: 10px;
+}
 
 @media (min-width:1024px){
 	.main-img {
