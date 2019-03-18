@@ -35,6 +35,13 @@ img {
   margin-top: 10px;
 }
 
+.navigation li {
+    background: royalblue;
+    max-width: 40%;
+    margin: auto;
+    border-top-left-radius: 50%;
+}
+
 .title a,
 .navigation a {
   display: block;
