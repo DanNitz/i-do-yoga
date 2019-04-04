@@ -36,10 +36,9 @@ img {
 }
 
 .navigation li {
-    background: royalblue;
+    background: white;
     max-width: 40%;
     margin: auto;
-    border-top-left-radius: 50%;
 }
 
 .title a,
@@ -55,7 +54,7 @@ img {
 }
 
 .nav-header {
-  background-color: #02986a;
+  background-color: #009966;
 }
 /*main image section*/
 .main-img {
