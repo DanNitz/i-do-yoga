@@ -35,7 +35,7 @@ p {}
 }
 
 .navigation li {
-    background: #009966;
+    background: #096;
     border: solid 1px white;
     max-width: 40%;
     margin: auto;
@@ -51,15 +51,19 @@ p {}
 
 .navigation li a:hover {
     background-color: white;
-    color: #009966;
+    color: #096;
 }
 
 .nav-header {
-  background-color: #009966;
+  background-color: #096;
 }
-/*main image section*/
+/*main content section*/
 .main-img {
-    max-height: 600px;
+    max-height: 800px;
+}
+
+.col-2 {
+    color: #096
 }
 
 /*media query section*/
@@ -68,14 +72,19 @@ p {}
 
 .nav-header,
 .navigation,
-.logo    {
+.logo,
+.main-content {
   display: flex;
   }
+    
+.navigation {
+  margin-top: 35px;
+  }    
 
 .nav-header {
   flex-direction: row;
   justify-content: space-between;
-  }
+  } 
 
 @media (min-width:1024px){
 
