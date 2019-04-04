@@ -21,7 +21,10 @@ ul {
 
 p {}
 
-
+footer{
+    height: 100px;
+    background-color: #096;
+}
 /*Navigation*/
 .logo {
     max-height: 100px;
@@ -59,12 +62,36 @@ p {}
 }
 /*main content section*/
 .main-img {
-    max-height: 800px;
+    max-height: 600px;
 }
 
 .col-2 {
-    color: #096
+    color: #096;
+    text-align: center;
+    margin: auto;
+    width: 60%;
 }
+
+
+/* footer section */
+
+.icn {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.fb {
+    position: absolute;
+    right: 5px;
+}
+.insta {
+     position: absolute;
+    right: 90px;
+}
+
 
 /*media query section*/
 
