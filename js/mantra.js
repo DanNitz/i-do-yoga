@@ -11,8 +11,8 @@ var mantras = [
     'I am running away from my responsibilities. And it feels good. -MGS',
     'Society teaches us that having feelings and crying is bad and wrong. Well, that\'s baloney, because grief isn\'t wrong. There\'s such a thing as good grief. Just ask Charlie Brown. -MGS',
     'Whenever I\'m about to do something, I think, \'Would and idiot do that?\' and if they would, I do not do that thing. -DKS',
-    'I am ready to face any challenge that might be foolish enough to face me. -DKS',    
-]
+    'I am ready to face any challenge that might be foolish enough to face me. -DKS' 
+];
 
 function newMantra() {
     var randomNumber = Math.floor(Math.random()* mantras.length)

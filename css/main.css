@@ -69,6 +69,11 @@ footer{
     width: 60%;
 }
 
+/* mantra generator */
+
+.mantra-div {margin: 10px;}
+.mantra-div button {margin: 10px;}
+
 /* footer section */
 
 .icn {
