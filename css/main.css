@@ -1,17 +1,10 @@
-/*Baseline CSS Mobile first*/
+/*CSS Mobile first*/
 
-* {
-	box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
-body {
-	font-family: "Tahoma", sans-serif;
+body {font-family: "Tahoma", sans-serif;}
 
-}
-
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
 
 ul {
   list-style: none;
@@ -25,6 +18,7 @@ footer{
     height: 100px;
     background-color: #096;
 }
+
 /*Navigation*/
 .logo {
     max-height: 100px;
@@ -39,9 +33,10 @@ footer{
 
 .navigation li {
     background: #096;
-    border: solid 1px white;
+    border: solid 2px white;
     max-width: 40%;
     margin: auto;
+    border-radius: 5px;
 }
 
 .title a,
@@ -61,8 +56,10 @@ footer{
   background-color: #096;
 }
 /*main content section*/
+.col-1 {margin: 10px;}
 .main-img {
-    max-height: 600px;
+    max-height: 700px;
+    max-width: 100%;
 }
 
 .col-2 {
@@ -71,7 +68,6 @@ footer{
     margin: auto;
     width: 60%;
 }
-
 
 /* footer section */
 
@@ -92,7 +88,6 @@ footer{
     right: 90px;
 }
 
-
 /*media query section*/
 
 @media (min-width:769px) {
@@ -112,7 +107,7 @@ footer{
   flex-direction: row;
   justify-content: space-between;
   } 
-
+    
 @media (min-width:1024px){
 
 
