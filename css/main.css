@@ -93,6 +93,11 @@ footer{
     right: 90px;
 }
 
+/*Font weights*/
+.thin {
+    font-weight: 100;
+}
+
 /*media query section*/
 
 @media (min-width:769px) {
