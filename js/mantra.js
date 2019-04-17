@@ -15,6 +15,6 @@ var mantras = [
 ];
 
 function newMantra() {
-    var randomNumber = Math.floor(Math.random()* mantras.length)
+    var randomNumber = Math.floor(Math.random() * mantras.length)
     document.getElementById('mantraGenerator').innerHTML = mantras[randomNumber];
 }
