@@ -1,8 +1,15 @@
 /*CSS Mobile first*/
 
 * {box-sizing: border-box;}
+html, body {
+    height: 100%;
+}
 
-body {font-family: "Roboto", sans-serif;}
+body {    
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
 
 a {text-decoration: none;}
 
@@ -14,12 +21,18 @@ ul {
 
 p {}
 
-footer{
-    height: 100px;
+footer {
+    min-height: 6.25rem;
     background-color: #096;
 }
 
-/*Navigation*/
+/* Wrapper */
+.wrapper {
+    flex: 1 0 auto;
+}
+
+
+/* Navigation */
 .logo {
     max-height: 100px;
     align-content: center;
@@ -90,7 +103,7 @@ footer{
 }
 .insta {
      position: absolute;
-    right: 90px;
+     right: 90px;
 }
 
 /*Font weights*/
