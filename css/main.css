@@ -1,6 +1,7 @@
 /*CSS Mobile first*/
 
 * {box-sizing: border-box;}
+
 html, body {
     height: 100%;
 }
@@ -27,12 +28,14 @@ footer {
 }
 
 /* Wrapper */
+
 .wrapper {
     flex: 1 0 auto;
 }
 
 
 /* Navigation */
+
 .logo {
     max-height: 100px;
     align-content: center;
@@ -68,8 +71,11 @@ footer {
 .nav-header {
   background-color: #096;
 }
-/*main content section*/
+
+/*main content section home page*/
+
 .col-1 {margin: 10px;}
+
 .main-img {
     max-height: 700px;
     max-width: 100%;
@@ -87,6 +93,21 @@ footer {
 .mantra-div {margin: 10px;}
 .mantra-div button {margin: 10px;}
 
+
+/*
+=======================
+About Page
+=======================
+*/
+
+.about-img-1 {
+    width: 750px;
+    height: 500px;
+    background-image: url("../imgs/aboutpageimg1-sfw.jpg");
+    background-size: cover;
+}
+
+
 /* footer section */
 
 .icn {
@@ -102,8 +123,8 @@ footer {
     right: 5px;
 }
 .insta {
-     position: absolute;
-     right: 90px;
+    position: absolute;
+    right: 90px;
 }
 
 /*Font weights*/
