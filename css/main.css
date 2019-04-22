@@ -79,6 +79,8 @@ footer {
 .main-img {
     max-height: 700px;
     max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .col-2 {
