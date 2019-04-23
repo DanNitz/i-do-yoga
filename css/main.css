@@ -58,7 +58,7 @@ footer {
 .title a,
 .navigation a {
   display: block;
-  padding: 5px 15px;
+  padding: .25em 1em;
   text-align: center;
   color: white;
 }
@@ -70,6 +70,7 @@ footer {
 
 .nav-header {
   background-color: #096;
+  box-shadow: 0 .3em .8em slategrey;    
 }
 
 /*main content section home page*/
@@ -139,34 +140,43 @@ About Page
 
 @media (min-width:769px) {
 
+.main-content {
+  padding-top: 7.45em;      
+  }    
+    
 .nav-header,
 .navigation,
 .logo,
 .main-content {
   display: flex;
   }
-    
-.navigation {
-  margin-top: 2em;
-  }    
 
 .nav-header {
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
   } 
+
+.navigation {
+  margin-top: 2.75em;
+  }    
+
+.navigation a {
+  padding: .25em 2em;
+  }    
     
 .navigation li {
-  border: solid 2px white;
-  margin-right: .5em;
-  padding: .5em;   
-}   
+  margin-right: .5em;  
+  }   
     
 .col-1 {margin-right: 1.5em;
-    }    
+  }    
     
 .col-2 {
     width: 60%;
-    }    
+  }    
     
     
 @media (min-width:1024px){
