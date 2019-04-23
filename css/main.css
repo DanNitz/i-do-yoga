@@ -114,6 +114,13 @@ About Page
 
 /* footer section */
 
+#copyright{ 
+    color: white;
+    margin-left: 1em;
+    position: relative;
+    top: 2.6em;
+}
+
 .icn {
     display: inline-block;
     width: 80px;
@@ -175,12 +182,16 @@ About Page
   }    
     
 .col-2 {
+    font-size: 1.15rem;
     width: 60%;
   }    
     
     
-@media (min-width:1024px){
-
+@media (min-width:1024px) {
+    
+.col-2 {
+    width: 55%;
+  }     
 
 	}
 }
