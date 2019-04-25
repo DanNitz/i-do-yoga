@@ -2,6 +2,8 @@
 
 * {box-sizing: border-box;}
 
+/* CSS Elements */
+
 html, body {
     height: 100%;
 }
@@ -27,12 +29,35 @@ footer {
     background-color: #096;
 }
 
+button {
+    padding: .75em;
+    border-radius: 15px;
+    background: #096;
+    color: white;
+}
+
+button:hover {
+    box-shadow: .2em .2em .8em #669;
+    background: white;
+    color: #096;
+}
+
 /* Wrapper */
 
 .wrapper {
     flex: 1 0 auto;
 }
 
+
+/* theme text colors, font weight */
+
+.thin {font-weight: 100;}
+
+.purple {color: #669;}
+
+.white {color: white;}
+
+.green {color: #096;}
 
 /* Navigation */
 
@@ -70,10 +95,10 @@ footer {
 
 .nav-header {
   background-color: #096;
-  box-shadow: 0 .3em .8em slategrey;    
+  box-shadow: 0 .3em .8em #666699;    
 }
 
-/*main content section home page*/
+/* main content section home page */
 
 .col-1 {margin: .5em;}
 
@@ -111,6 +136,19 @@ About Page
     background-size: cover;
 }
 
+.text-container {
+    background: rgba(255,255,255,.9);
+    position: relative;
+    top: 350px;
+    margin: 1em;
+}
+
+/*
+=======================
+Packages Page
+=======================
+*/
+
 
 /* footer section */
 
@@ -136,11 +174,6 @@ About Page
 .insta {
     position: absolute;
     right: 90px;
-}
-
-/*Font weights*/
-.thin {
-    font-weight: 100;
 }
 
 /*media query section*/
