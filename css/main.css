@@ -49,7 +49,7 @@ button:hover {
 }
 
 
-/* theme text colors, font weight */
+/* theme text colors, font weight, other styles */
 
 .thin {font-weight: 100;}
 
@@ -58,6 +58,10 @@ button:hover {
 .white {color: white;}
 
 .green {color: #096;}
+
+.bx-sdw {box-shadow: .2em .5em .8em #669;}
+
+.bd-rad-round {border-radius: 5px;}
 
 /* Navigation */
 
@@ -95,7 +99,7 @@ button:hover {
 
 .nav-header {
   background-color: #096;
-  box-shadow: 0 .3em .8em #666699;    
+  box-shadow: 0 .3em .8em #669;    
 }
 
 /* main content section home page */
@@ -136,10 +140,11 @@ About Page
     background-size: cover;
 }
 
-.text-container {
+.abt-text-container-1 {
+    text-align: center;
     background: rgba(255,255,255,.9);
     position: relative;
-    top: 350px;
+    top: 20em;
     margin: 1em;
 }
 
@@ -217,14 +222,21 @@ Packages Page
 .col-2 {
     font-size: 1.15rem;
     width: 60%;
-  }    
+  }        
     
+/* about page text container  */
+    .abt-text-container-1 {
+        margin-left: 15em;
+    }    
     
 @media (min-width:1024px) {
     
 .col-2 {
     width: 55%;
-  }     
+  }
+ .abt-text-container-1 {
+        margin-left: 30em;
+    }     
 
 	}
 }
