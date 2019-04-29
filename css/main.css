@@ -73,7 +73,7 @@ button:hover {
 }
 
 .navigation {
-  margin-bottom: .5em; 
+  margin-bottom: .5em;     
 }
 
 .navigation li {
@@ -99,12 +99,13 @@ button:hover {
 
 .nav-header {
   background-color: #096;
-  box-shadow: 0 .3em .8em #669;    
+  box-shadow: 0 .3em .8em #669;
+  z-index: 100;
 }
 
 /* main content section home page */
 
-.col-1 {margin: .5em;}
+.col-1 {margin: 1em;}
 
 .main-img {
     max-height: 650px;
@@ -123,7 +124,7 @@ button:hover {
 
 /* mantra generator */
 
-.mantra-div {margin: 10px;}
+.mantra-div {margin: 1em;}
 .mantra-div button {margin: 10px;}
 
 
@@ -133,20 +134,38 @@ About Page
 =======================
 */
 
-.about-img-1 {
+.abt-img-1 {
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-image: url("../imgs/aboutpageimg1-sfw.jpg");
     background-size: cover;
 }
 
 .abt-text-container-1 {
     text-align: center;
-    background: rgba(255,255,255,.9);
+    background: rgba(255,255,255,.85);
     position: relative;
-    top: 20em;
+    top: 80%;
     margin: 1em;
 }
+
+.main-content-about h1 {
+    margin-left: .75em;
+}
+
+.abt-sec-2 {
+    margin: .5em;
+    display: flex;
+}
+
+
+.abt-img-3,
+.abt-img-2 {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
 
 /*
 =======================
@@ -161,7 +180,7 @@ Packages Page
     color: white;
     margin-left: 1em;
     position: relative;
-    top: 2.6em;
+    top: 50%;
 }
 
 .icn {
@@ -186,7 +205,10 @@ Packages Page
 @media (min-width:769px) {
 
 .main-content {
-  padding-top: 7.45em;      
+  padding-top: 7.5em;      
+  }    
+.main-content-about{
+  padding-top: 6.5em;      
   }    
     
 .nav-header,
@@ -194,7 +216,7 @@ Packages Page
 .logo,
 .main-content {
   display: flex;
-  }
+  }   
 
 .nav-header {
   flex-direction: row;
@@ -216,7 +238,7 @@ Packages Page
   margin-right: .5em;  
   }   
     
-.col-1 {margin-right: 1.5em;
+.col-1 {margin-right: 2em;
   }    
     
 .col-2 {
@@ -224,10 +246,15 @@ Packages Page
     width: 60%;
   }        
     
-/* about page text container  */
-    .abt-text-container-1 {
-        margin-left: 15em;
-    }    
+/* about page  */
+.abt-text-container-1 {
+    margin-left: 20%;
+  } 
+    
+.abt-img-3, 
+.abt-img-2 {
+    width: 90%;
+  }    
     
 @media (min-width:1024px) {
     
@@ -235,8 +262,9 @@ Packages Page
     width: 55%;
   }
  .abt-text-container-1 {
-        margin-left: 30em;
-    }     
+        font-size: 1.25rem;
+        margin-left: 30%;
+    } 
 
 	}
 }
