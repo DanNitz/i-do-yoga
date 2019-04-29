@@ -143,9 +143,10 @@ About Page
 
 .abt-text-container-1 {
     text-align: center;
-    background: rgba(255,255,255,.85);
+    font-size: 1.15em;
+    background: rgba(100,100,100,.8);
     position: relative;
-    top: 80%;
+    top: 70%;
     margin: 1em;
 }
 
@@ -154,14 +155,14 @@ About Page
 }
 
 .abt-sec-2 {
-    margin: .5em;
+    margin: 1em;
     display: flex;
 }
 
 
 .abt-img-3,
 .abt-img-2 {
-    width: 100%;
+    width: 95%;
     display: block;
     margin: auto;
 }
@@ -262,7 +263,7 @@ Packages Page
     width: 55%;
   }
  .abt-text-container-1 {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
         margin-left: 30%;
     } 
 
