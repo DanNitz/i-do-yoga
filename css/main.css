@@ -174,6 +174,22 @@ Packages Page
 =======================
 */
 
+.main-content-packages {
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.pac-col-1,
+.pac-col-2{
+    background-color: #096;
+    border: solid #669 5px;
+    border-style: inset;
+    margin: 1em;
+    padding: .5em;
+    font-size: 1.15rem;
+}
+
 
 /* footer section */
 
@@ -181,7 +197,7 @@ Packages Page
     color: white;
     margin-left: 1em;
     position: relative;
-    top: 50%;
+    top: 40%;
 }
 
 .icn {
@@ -208,8 +224,14 @@ Packages Page
 .main-content {
   padding-top: 7.5em;      
   }    
-.main-content-about{
+.main-content-about {
   padding-top: 6.5em;      
+  }    
+.main-content-packages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 8em;      
   }    
     
 .nav-header,
@@ -256,6 +278,15 @@ Packages Page
 .abt-img-2 {
     width: 90%;
   }    
+    
+/* packages page  */
+
+.pac-col-1,
+.pac-col-2 {
+    width: 75%;
+    margin: 2em auto 1em;
+ } 
+    
     
 @media (min-width:1024px) {
     
