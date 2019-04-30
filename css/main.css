@@ -134,6 +134,10 @@ About Page
 =======================
 */
 
+.main-content-about {
+    margin-bottom: 2em;
+}
+
 .abt-img-1 {
     width: 100%;
     height: 700px;
@@ -146,12 +150,17 @@ About Page
     font-size: 1.15em;
     background: rgba(100,100,100,.8);
     position: relative;
-    top: 70%;
+    top: 68%;
     margin: 1em;
+}
+
+.abt-img-1 p {
+    padding: .5em;
 }
 
 .main-content-about h1 {
     margin-left: .75em;
+    text-align: center;
 }
 
 .abt-sec-2 {
@@ -178,6 +187,14 @@ Packages Page
     margin: 1em;
     padding: 1em;
     text-align: center;
+}
+
+.main-content-packages h1{
+    background-color: #d9fff2;
+    padding: .5em;
+    margin: .5em 1em;
+    color: #096;
+    border-radius: 1em;
 }
 
 .pac-col-1,
@@ -254,7 +271,7 @@ Packages Page
   }    
 
 .navigation a {
-  padding: .25em 2em;
+  padding: .5em 2em;
   }    
     
 .navigation li {
@@ -270,9 +287,14 @@ Packages Page
   }        
     
 /* about page  */
+    
 .abt-text-container-1 {
     margin-left: 20%;
   } 
+
+.main-content-about h1 {
+    font-size: 3rem;
+  }
     
 .abt-img-3, 
 .abt-img-2 {
