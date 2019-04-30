@@ -208,6 +208,54 @@ Packages Page
     font-size: 1.15rem;
 }
 
+/*
+=======================
+Contact Page + Form Styles
+=======================
+*/
+
+input,textarea,label{
+    display: block;
+    padding: .75em;
+    margin-left: 1em;
+    width: 100%;
+    border-radius: 1em;
+}
+
+input {
+   width: 100% 
+}
+
+textarea{
+    margin-bottom: 1em;
+}
+
+label {
+    font-weight: 400;
+    padding: 10px 0;
+    color: #096
+}
+
+.main-content-contact {
+    display: block;
+    margin: auto;
+}
+.main-content-contact h1{
+    text-align: center;
+}
+
+#contact-form{
+    max-width: 438px;
+    display: block;
+    margin: auto;
+}
+
+#form-btn {
+    display: block;
+    margin: auto;
+}
+
+
 
 /* footer section */
 
@@ -249,6 +297,9 @@ Packages Page
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding-top: 8em;      
+  }    
+.main-content-contact{
   padding-top: 8em;      
   }    
     
