@@ -150,7 +150,7 @@ About Page
     font-size: 1.15em;
     background: rgba(100,100,100,.8);
     position: relative;
-    top: 68%;
+    top: 62%;
     margin: 1em;
 }
 
@@ -195,6 +195,7 @@ Packages Page
     margin: .5em 1em;
     color: #096;
     border-radius: 1em;
+    font-size: 1.75rem;
 }
 
 .pac-col-1,
@@ -303,6 +304,10 @@ Packages Page
     
 /* packages page  */
 
+.main-content-packages h1{
+    font-size: 2.5rem;
+  }
+    
 .pac-col-1,
 .pac-col-2 {
     width: 75%;
