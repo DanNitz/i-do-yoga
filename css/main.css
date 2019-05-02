@@ -115,7 +115,7 @@ button:hover {
 }
 
 .col-2 {
-    font-size: 1rem;
+    font-size: .9rem;
     color: #096;
     text-align: center;
     margin: auto;
@@ -124,8 +124,20 @@ button:hover {
 
 /* mantra generator */
 
-.mantra-div {margin: 1em;}
-.mantra-div button {margin: 10px;}
+.mantra-div {
+    display: block;
+    margin: 1em 3em;
+    text-align: center;
+    border: solid .75em #669;
+    border-radius: 2em;
+    background-color: #d9fff2;
+}
+
+#mantraGenerator {
+    margin: 1em;
+}
+
+.mantra-div button {margin: 1em;}
 
 
 /*
@@ -168,6 +180,12 @@ About Page
     display: flex;
 }
 
+.abt-sec-3 {
+    display: block;
+    margin: auto 2em;
+    text-align: center;
+    font-size: .75rem;
+}
 
 .abt-img-3,
 .abt-img-2 {
@@ -201,8 +219,8 @@ Packages Page
 .pac-col-1,
 .pac-col-2{
     background-color: #096;
-    border: solid #669 5px;
-    border-style: inset;
+    border: solid #d9fff2 .75em;
+    border-radius: 3em;
     margin: 1em;
     padding: .5em;
     font-size: 1.15rem;
@@ -214,10 +232,13 @@ Contact Page + Form Styles
 =======================
 */
 
+form {
+    margin: 2em;
+}
+
 input,textarea,label{
     display: block;
     padding: .75em;
-    margin-left: 1em;
     width: 100%;
     border-radius: 1em;
 }
@@ -232,7 +253,7 @@ textarea{
 
 label {
     font-weight: 400;
-    padding: 10px 0;
+    padding: .75em 0;
     color: #096
 }
 
@@ -248,6 +269,7 @@ label {
     max-width: 438px;
     display: block;
     margin: auto;
+    margin-bottom: 1em;
 }
 
 #form-btn {
@@ -330,12 +352,13 @@ label {
   margin-right: .5em;  
   }   
     
-.col-1 {margin-right: 2em;
+.col-1 {margin-right: 1em;
   }    
     
 .col-2 {
     font-size: 1.15rem;
     width: 60%;
+    margin-right: 1em;
   }        
     
 /* about page  */
@@ -352,6 +375,10 @@ label {
 .abt-img-2 {
     width: 90%;
   }    
+    
+.abt-sec-3{
+    font-size: 1.1rem;    
+    }    
     
 /* packages page  */
 
