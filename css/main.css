@@ -61,7 +61,7 @@ button:hover {
 
 .bx-sdw {box-shadow: .2em .5em .8em #669;}
 
-.bd-rad-round {border-radius: 5px;}
+.bd-rad {border-radius: 5px;}
 
 /* Navigation */
 
@@ -182,7 +182,7 @@ About Page
 
 .abt-sec-3 {
     display: block;
-    margin: auto 2em;
+    margin: 2em;
     text-align: center;
     font-size: .75rem;
 }
@@ -352,14 +352,23 @@ label {
   margin-right: .5em;  
   }   
     
-.col-1 {margin-right: 1em;
+.col-1 {
+  width: 40%;    
+  margin-right: 1em;
   }    
     
 .col-2 {
     font-size: 1.15rem;
     width: 60%;
     margin-right: 1em;
+    margin-left: 1em;
   }        
+    
+.mantra-div {
+    width: 75%;
+    display:block;
+    margin: 1em auto;
+    }    
     
 /* about page  */
     
