@@ -1,4 +1,4 @@
-/*CSS Mobile first*/
+/* CSS */
 
 * {box-sizing: border-box;}
 
@@ -414,10 +414,15 @@ label {
 .col-2 {
     width: 55%;
   }
- .abt-text-container-1 {
+.abt-text-container-1 {
         font-size: 1.3rem;
         margin-left: 30%;
     } 
 
+.pac-col-1 ul,
+.pac-col-2 ul {
+    margin-left: 5em;
+    }
+    
 	}
 }
