@@ -226,6 +226,13 @@ Packages Page
     font-size: 1.15rem;
 }
 
+.pac-col-1 ul,
+.pac-col-2 ul {
+    text-align: left;
+    list-style: disc;
+    margin: 1em;
+}
+
 /*
 =======================
 Contact Page + Form Styles
